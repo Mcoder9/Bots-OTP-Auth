@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-base_url = 'https://api.telegram.org/bot5025578400:AAE_bCbN8_eS2iFSFdR0filfjEuXKaFy7JY'
+base_url = 'https://api.telegram.org/bot5025578400:AAGFk-Pn2s8ldowlKR6aqLjzRlO88Lgnak0'
 
 def send_msg(data,result):
     chat_id = result['message']['chat']['id']
